@@ -21,3 +21,7 @@ The digitised points of Carter and Kibler's Fig. 1 in `sim2/F_kc78.py` were read
 (see the comments there); the scanned figure is not included.
 
 A finite computation certifies only the cases it ran.
+
+## License
+
+MIT; see `LICENSE`.

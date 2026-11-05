@@ -1,0 +1,9 @@
+# 18 digitised points, t from 1.0 to 640 days
+KC78 published parameters (c profiled): D=9.09e-05 cm^2/day gamma=0.0003488 /day beta=0.002058 /day  c=6.5934%  m1=c=6.593%  m_inf=c(1+g/b)=7.711%  rms resid=0.146 %  max|resid|=0.406 %
+LM from start ['9.1e-05', '3.5e-04', '2.1e-03']: D=0.0001085 cm^2/day gamma=0.0005323 /day beta=0.003294 /day  c=6.4481%  m1=c=6.448%  m_inf=c(1+g/b)=7.490%  rms resid=0.105 %  max|resid|=0.263 %
+LM from start ['1.0e-04', '1.0e-03', '1.0e-02']: D=0.0001085 cm^2/day gamma=0.0005323 /day beta=0.003294 /day  c=6.4481%  m1=c=6.448%  m_inf=c(1+g/b)=7.490%  rms resid=0.105 %  max|resid|=0.263 %
+LM from start ['5.0e-05', '1.0e-04', '5.0e-04']: D=0.0001085 cm^2/day gamma=0.0005323 /day beta=0.003294 /day  c=6.4481%  m1=c=6.448%  m_inf=c(1+g/b)=7.490%  rms resid=0.105 %  max|resid|=0.263 %
+LM from start ['2.0e-04', '3.0e-03', '1.0e-02']: D=0.0001085 cm^2/day gamma=0.0005323 /day beta=0.003294 /day  c=6.4481%  m1=c=6.448%  m_inf=c(1+g/b)=7.490%  rms resid=0.105 %  max|resid|=0.263 %
+BEST: D=0.0001085 cm^2/day gamma=0.0005323 /day beta=0.003294 /day  c=6.4481%  m1=c=6.448%  m_inf=c(1+g/b)=7.490%  rms resid=0.105 %  max|resid|=0.263 %
+linearised rel. std. errors (log-params, approx.): D 0.06  gamma 0.38  beta 0.49
+Gram eigenvalue ratio (cond) = 241

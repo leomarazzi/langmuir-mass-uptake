@@ -1,0 +1,34 @@
+t=0.05 r=0.25  u FD=0.003099 series=0.003090 | N FD=0.000014 series=0.000102
+t=0.05 r=0.50  u FD=0.049372 series=0.049351 | N FD=0.000382 series=0.000488
+t=0.05 r=0.75  u FD=0.344728 series=0.344722 | N FD=0.005215 series=0.005386
+t=0.05  drying mass FD=4.490974   M_inf - absorption mass FD=4.490893
+t=0.30 r=0.25  u FD=0.531095 series=0.531096 | N FD=0.040650 series=0.040713
+t=0.30 r=0.50  u FD=0.650834 series=0.650835 | N FD=0.062920 series=0.062997
+t=0.30 r=0.75  u FD=0.819939 series=0.819940 | N FD=0.105433 series=0.105557
+t=0.30  drying mass FD=2.512462   M_inf - absorption mass FD=2.512381
+t=1.50 r=0.25  u FD=0.940198 series=0.940199 | N FD=0.381646 series=0.381660
+t=1.50 r=0.50  u FD=0.954157 series=0.954157 | N FD=0.398720 series=0.398736
+t=1.50 r=0.75  u FD=0.975163 series=0.975163 | N FD=0.426050 series=0.426076
+t=1.50  drying mass FD=0.557954   M_inf - absorption mass FD=0.557874
+t=0.05 r=0.25  u FD=0.003099 series=0.003090 | N FD=0.000014 series=0.000102
+t=0.05 r=0.50  u FD=0.049372 series=0.049351 | N FD=0.000382 series=0.000488
+t=0.05 r=0.75  u FD=0.344728 series=0.344722 | N FD=0.005215 series=0.005386
+t=0.05  drying mass FD=4.490974   M_inf - absorption mass FD=4.490893
+t=0.30 r=0.25  u FD=0.531095 series=0.531096 | N FD=0.040650 series=0.040713
+t=0.30 r=0.50  u FD=0.650834 series=0.650835 | N FD=0.062920 series=0.062997
+t=0.30 r=0.75  u FD=0.819939 series=0.819940 | N FD=0.105433 series=0.105557
+t=0.30  drying mass FD=2.512462   M_inf - absorption mass FD=2.512381
+t=1.50 r=0.25  u FD=0.940198 series=0.940199 | N FD=0.381646 series=0.381660
+t=1.50 r=0.50  u FD=0.954157 series=0.954157 | N FD=0.398720 series=0.398736
+t=1.50 r=0.75  u FD=0.975163 series=0.975163 | N FD=0.426050 series=0.426076
+t=1.50  drying mass FD=0.557954   M_inf - absorption mass FD=0.557874
+# rearranged N formula (uses sum c_k phi_k = 1)
+t=0.05 r=0.25  N FD=0.000014  N rearranged=0.000014
+t=0.05 r=0.50  N FD=0.000382  N rearranged=0.000381
+t=0.05 r=0.75  N FD=0.005215  N rearranged=0.005214
+t=0.30 r=0.25  N FD=0.040650  N rearranged=0.040649
+t=0.30 r=0.50  N FD=0.062920  N rearranged=0.062919
+t=0.30 r=0.75  N FD=0.105433  N rearranged=0.105433
+t=1.50 r=0.25  N FD=0.381646  N rearranged=0.381646
+t=1.50 r=0.50  N FD=0.398720  N rearranged=0.398720
+t=1.50 r=0.75  N FD=0.426050  N rearranged=0.426050

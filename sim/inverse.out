@@ -1,0 +1,22 @@
+# true D=0.5 gamma=0.7 beta=1.3 R=1; T=20, 160 samples (quadratic grid); noise sd = eta*M_inf; trials=20
+## dim=1  mu1=2.4674  s-(1)=0.6117 s+(1)=2.6220 s-(2)=1.2141  gap=0.6024  Fisher cond=3.88e+03
+  eta=0      3-step  rel.err mean/median:  D 4.12e-03/4.12e-03  gamma 3.40e-02/3.40e-02  beta 3.41e-02/3.41e-02
+  eta=0      LM      rel.err mean/median:  D 8.33e-15/8.33e-15  gamma 3.76e-14/3.76e-14  beta 3.83e-14/3.83e-14
+  eta=0.001  3-step  rel.err mean/median:  D 3.80e-02/2.93e-02  gamma 1.21e-01/1.03e-01  beta 1.21e-01/1.02e-01
+  eta=0.001  LM      rel.err mean/median:  D 1.75e-03/1.45e-03  gamma 7.33e-03/5.90e-03  beta 7.36e-03/5.69e-03
+  eta=0.01   3-step  rel.err mean/median:  D 6.89e-01/5.99e-01  gamma 8.05e-01/8.12e-01  beta 8.05e-01/8.13e-01
+  eta=0.01   LM      rel.err mean/median:  D 3.75e-02/1.60e-02  gamma 7.85e-01/7.15e-02  beta 7.88e-01/6.88e-02
+## dim=2  mu1=5.7832  s-(1)=0.9549 s+(1)=3.9367 s-(2)=1.2381  gap=0.2832  Fisher cond=634
+  eta=0      3-step  rel.err mean/median:  D 3.29e-03/3.29e-03  gamma 5.09e-02/5.09e-02  beta 5.09e-02/5.09e-02
+  eta=0      LM      rel.err mean/median:  D 4.44e-16/4.44e-16  gamma 0.00e+00/0.00e+00  beta 1.71e-16/1.71e-16
+  eta=0.001  3-step  rel.err mean/median:  D 3.08e-02/3.28e-02  gamma 4.90e-02/3.80e-02  beta 4.91e-02/3.80e-02
+  eta=0.001  LM      rel.err mean/median:  D 1.28e-03/1.16e-03  gamma 2.89e-03/2.94e-03  beta 2.93e-03/2.93e-03
+  eta=0.01   3-step  rel.err mean/median:  D 2.90e-01/2.14e-01  gamma 9.08e-01/9.71e-01  beta 9.07e-01/9.71e-01
+  eta=0.01   LM      rel.err mean/median:  D 1.73e-02/2.10e-02  gamma 3.39e-02/3.26e-02  beta 3.58e-02/3.46e-02
+## dim=3  mu1=9.8696  s-(1)=1.0994 s+(1)=5.8354 s-(2)=1.2526  gap=0.1532  Fisher cond=341
+  eta=0      3-step  rel.err mean/median:  D 4.12e-03/4.12e-03  gamma 4.56e-02/4.56e-02  beta 4.56e-02/4.56e-02
+  eta=0      LM      rel.err mean/median:  D 1.43e-14/1.43e-14  gamma 3.09e-14/3.09e-14  beta 3.23e-14/3.23e-14
+  eta=0.001  3-step  rel.err mean/median:  D 1.81e-02/1.84e-02  gamma 5.11e-02/3.58e-02  beta 5.10e-02/3.45e-02
+  eta=0.001  LM      rel.err mean/median:  D 1.34e-03/1.06e-03  gamma 1.77e-03/1.96e-03  beta 1.93e-03/1.87e-03
+  eta=0.01   3-step  rel.err mean/median:  D 2.29e-01/1.97e-01  gamma 9.60e-01/9.69e-01  beta 9.60e-01/9.69e-01
+  eta=0.01   LM      rel.err mean/median:  D 1.26e-02/1.35e-02  gamma 1.65e-02/1.67e-02  beta 1.64e-02/1.74e-02

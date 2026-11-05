@@ -1,0 +1,45 @@
+# B. rectangle a=2, b=1, P1=(0.5,0.7,1.3), M_inf=3.076923, perimeter=6
+## (1) c^2 check: quadrature of (int phi)^2 vs 64ab/(pi^4 i^2 j^2) (0 for an even index)
+(i,j)=(1,1) quad c^2=1.3140458637 formula=1.3140457286
+(i,j)=(1,2) quad c^2=0.0000000000 formula=0.0000000000
+(i,j)=(2,1) quad c^2=0.0000000000 formula=0.0000000000
+(i,j)=(3,1) quad c^2=0.1460051560 formula=0.1460050810
+(i,j)=(1,3) quad c^2=0.1460051560 formula=0.1460050810
+(i,j)=(3,5) quad c^2=0.0058402134 formula=0.0058402032
+(i,j)=(7,3) quad c^2=0.0029797044 formula=0.0029796955
+(i,j)=(2,2) quad c^2=0.0000000000 formula=0.0000000000
+(i,j)=(9,11) quad c^2=0.0001340740 formula=0.0001340726
+max abs difference = 1.35e-07
+mu<=4e+04: 1593 modes, sum c^2 = 1.98099975 (ab = 2)
+mu<=4e+05: 15915 modes, sum c^2 = 1.99397094 (ab = 2)
+mu<=4e+06: 159143 modes, sum c^2 = 1.99808928 (ab = 2)
+## (2) series vs FD, t in {0.01,0.05,0.2,1,3}; rel.diff = (M_FD - M_series)/M_inf
+# FD 80x40: 4 s
+# FD 160x80: 17 s
+t      M_series(mu<=4e5)  [mu<=4e6 diff]   M_FD80x40   rel.diff   M_FD160x80  rel.diff   Richardson(4*fine-coarse)/3 rel.diff
+0.01   0.45437644  [-1.3e-08]  0.45784035  +1.13e-03  0.45526958  +2.90e-04  +1.18e-05
+0.05   0.95527645  [-1.3e-08]  0.95673056  +4.73e-04  0.95565817  +1.24e-04  +7.88e-06
+0.2    1.70199955  [-1.1e-08]  1.70254413  +1.77e-04  1.70213448  +4.39e-05  -5.23e-07
+1      2.63562155  [-5.0e-09]  2.63576751  +4.74e-05  2.63565629  +1.13e-05  -7.60e-07
+3      3.03462177  [-5.6e-10]  3.03463917  +5.66e-06  3.03462586  +1.33e-06  -1.15e-07
+## (4) short-time slope; c0 = (2/sqrt pi)*|dOmega|*sqrt(D) = 4.787307
+t        M(t)/sqrt(t)   ratio to c0   kappa=(M - c0 sqrt t)/(D t)   [mu<=1e6 - mu<=4e6 in M]
+0.0001   4.761954      0.994704      -5.0706     [3.1e-09]
+0.0003   4.743536      0.990857      -5.0543     [3.1e-09]
+0.001    4.707897      0.983412      -5.0224     [3.1e-09]
+0.003    4.651176      0.971564      -4.9708     [3.1e-09]
+0.01     4.543764      0.949127      -4.8709     [3.1e-09]
+0.03     4.379170      0.914746      -4.7128     [3.0e-09]
+0.1      4.085006      0.853299      -4.4417     [2.8e-09]
+## (3) experiment A on the rectangle at P1
+# A. No inverse crime. FD data (radial Jn=400 graded CN / rect 80x40 PR-ADI), noise sd=eta*M_inf, 160 times on [0,20] quadratic,
+# fit: series (slab,ball K=200; disk K=120; rect mu<=4e4) by LM from three-step start (pipeline) and, as a diagnostic, from the true parameters (oracle start). trials=20 (eta=0: 1 deterministic fit). seed0=20261104
+# fderr = max_t |M_FD - M_series|/M_inf over the 160 times (series: slab,ball K=400, disk K=150, rect mu<=4e5); fderr_late: same for t>=0.05; trunc = fit-series truncation vs reference series
+rect P1 p=(0.5, 0.7, 1.3)  fderr=4.57e-03 fderr_late=4.72e-04 trunc=1.4e-07  (FD 25s)
+    eta=0      n= 1 median rel.err  D 2.65e-03  gamma 1.34e-03  beta 1.36e-03   max: D 2.65e-03 gamma 1.34e-03 beta 1.36e-03   median rms resid/M_inf 4.2e-04
+       oracle-start LM (diagnostic)   D 2.65e-03  gamma 1.34e-03  beta 1.36e-03   max: D 2.65e-03 gamma 1.34e-03 beta 1.36e-03   median rms resid/M_inf 4.2e-04
+    eta=0.001  n=20 median rel.err  D 2.95e-03  gamma 1.49e-03  beta 1.49e-03   max: D 5.15e-03 gamma 4.24e-03 beta 4.59e-03   median rms resid/M_inf 1.1e-03
+       oracle-start LM (diagnostic)   D 2.95e-03  gamma 1.49e-03  beta 1.49e-03   max: D 5.15e-03 gamma 4.24e-03 beta 4.59e-03   median rms resid/M_inf 1.1e-03
+    eta=0.01   n=20 median rel.err  D 1.60e-02  gamma 1.48e-02  beta 1.36e-02   max: D 6.08e-02 gamma 6.11e-02 beta 6.62e-02   median rms resid/M_inf 9.7e-03
+       oracle-start LM (diagnostic)   D 1.60e-02  gamma 1.48e-02  beta 1.36e-02   max: D 6.08e-02 gamma 6.11e-02 beta 6.62e-02   median rms resid/M_inf 9.7e-03
+# wall time 51 s

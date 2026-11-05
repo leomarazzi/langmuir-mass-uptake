@@ -1,0 +1,7 @@
+# CRLB relative sd (eta=1e-3) for (D, gamma, beta); D mu1 matched across dims; ratio = D mu1/(beta+gamma)
+ratio=0.1   dim1: D 1.2e-03 g 2.2e-02 b 2.2e-02  dim2: D 1.2e-03 g 1.7e-02 b 1.7e-02  dim3: D 1.3e-03 g 1.5e-02 b 1.5e-02
+ratio=0.3   dim1: D 6.1e-03 g 4.8e-02 b 4.8e-02  dim2: D 3.6e-03 g 2.3e-02 b 2.3e-02  dim3: D 3.2e-03 g 1.8e-02 b 1.7e-02
+ratio=1     dim1: D 1.3e-03 g 4.3e-03 b 4.5e-03  dim2: D 1.5e-03 g 4.3e-03 b 4.4e-03  dim3: D 1.6e-03 g 4.0e-03 b 4.2e-03
+ratio=3     dim1: D 1.1e-03 g 1.9e-03 b 2.1e-03  dim2: D 1.2e-03 g 1.8e-03 b 2.0e-03  dim3: D 1.3e-03 g 1.8e-03 b 2.0e-03
+ratio=10    dim1: D 1.4e-03 g 1.4e-03 b 1.6e-03  dim2: D 1.5e-03 g 1.4e-03 b 1.6e-03  dim3: D 1.6e-03 g 1.4e-03 b 1.6e-03
+ratio=30    dim1: D 1.8e-03 g 1.3e-03 b 1.5e-03  dim2: D 2.0e-03 g 1.3e-03 b 1.5e-03  dim3: D 2.2e-03 g 1.3e-03 b 1.5e-03

@@ -1,0 +1,67 @@
+# A. No inverse crime. FD data (radial Jn=400 graded CN / rect 80x40 PR-ADI), noise sd=eta*M_inf, 160 times on [0,20] quadratic,
+# fit: series (slab,ball K=200; disk K=120; rect mu<=4e4) by LM from three-step start (pipeline) and, as a diagnostic, from the true parameters (oracle start). trials=20 (eta=0: 1 deterministic fit). seed0=20261104
+# fderr = max_t |M_FD - M_series|/M_inf over the 160 times (series: slab,ball K=400, disk K=150, rect mu<=4e5); fderr_late: same for t>=0.05; trunc = fit-series truncation vs reference series
+slab P1 p=(0.5, 0.7, 1.3)  fderr=1.58e-05 fderr_late=2.30e-06 trunc=1.4e-09  (FD 22s)
+    eta=0      n= 1 median rel.err  D 1.44e-05  gamma 5.44e-05  beta 5.47e-05   max: D 1.44e-05 gamma 5.44e-05 beta 5.47e-05   median rms resid/M_inf 1.7e-06
+       oracle-start LM (diagnostic)   D 1.44e-05  gamma 5.44e-05  beta 5.47e-05   max: D 1.44e-05 gamma 5.44e-05 beta 5.47e-05   median rms resid/M_inf 1.7e-06
+    eta=0.001  n=20 median rel.err  D 1.26e-03  gamma 6.47e-03  beta 6.24e-03   max: D 4.28e-03 gamma 2.38e-02 beta 2.43e-02   median rms resid/M_inf 9.9e-04
+       oracle-start LM (diagnostic)   D 1.26e-03  gamma 6.47e-03  beta 6.24e-03   max: D 4.28e-03 gamma 2.38e-02 beta 2.43e-02   median rms resid/M_inf 9.9e-04
+    eta=0.01   n=20 median rel.err  D 1.76e-02  gamma 7.59e-02  beta 8.03e-02   max: D 7.47e-01 gamma 5.75e+02 beta 3.09e+02   median rms resid/M_inf 9.6e-03
+       oracle-start LM (diagnostic)   D 1.63e-02  gamma 7.08e-02  beta 7.30e-02   max: D 3.53e-02 gamma 1.97e-01 beta 2.01e-01   median rms resid/M_inf 9.6e-03
+slab P2 p=(2.0, 0.3, 0.5)  fderr=9.35e-06 fderr_late=1.52e-06 trunc=1.4e-10  (FD 22s)
+    eta=0      n= 1 median rel.err  D 5.60e-06  gamma 1.72e-06  beta 1.82e-06   max: D 5.60e-06 gamma 1.72e-06 beta 1.82e-06   median rms resid/M_inf 1.3e-06
+       oracle-start LM (diagnostic)   D 5.60e-06  gamma 1.72e-06  beta 1.82e-06   max: D 5.60e-06 gamma 1.72e-06 beta 1.82e-06   median rms resid/M_inf 1.3e-06
+    eta=0.001  n=20 median rel.err  D 8.17e-04  gamma 8.17e-04  beta 9.54e-04   max: D 2.54e-03 gamma 2.79e-03 beta 2.64e-03   median rms resid/M_inf 9.6e-04
+       oracle-start LM (diagnostic)   D 8.17e-04  gamma 8.17e-04  beta 9.54e-04   max: D 2.54e-03 gamma 2.79e-03 beta 2.64e-03   median rms resid/M_inf 9.6e-04
+    eta=0.01   n=20 median rel.err  D 8.82e-03  gamma 8.48e-03  beta 9.69e-03   max: D 3.00e-02 gamma 2.47e-02 beta 2.91e-02   median rms resid/M_inf 9.6e-03
+       oracle-start LM (diagnostic)   D 8.82e-03  gamma 8.48e-03  beta 9.69e-03   max: D 3.00e-02 gamma 2.47e-02 beta 2.91e-02   median rms resid/M_inf 9.6e-03
+slab P3 p=(0.1, 1.5, 2.0)  fderr=2.92e-05 fderr_late=4.43e-06 trunc=1.3e-08  (FD 21s)
+    eta=0      n= 1 median rel.err  D 1.73e-06  gamma 1.59e-04  beta 1.62e-04   max: D 1.73e-06 gamma 1.59e-04 beta 1.62e-04   median rms resid/M_inf 3.1e-06
+       oracle-start LM (diagnostic)   D 1.73e-06  gamma 1.59e-04  beta 1.62e-04   max: D 1.73e-06 gamma 1.59e-04 beta 1.62e-04   median rms resid/M_inf 3.1e-06
+    eta=0.001  n=20 median rel.err  D 3.47e-01  gamma 8.83e-01  beta 8.86e-01   max: D 3.53e-01 gamma 8.85e-01 beta 8.88e-01   median rms resid/M_inf 3.2e-03
+       oracle-start LM (diagnostic)   D 6.88e-04  gamma 1.44e-02  beta 1.47e-02   max: D 3.64e-03 gamma 2.92e-02 beta 2.73e-02   median rms resid/M_inf 9.7e-04
+    eta=0.01   n=20 median rel.err  D 3.19e-01  gamma 8.72e-01  beta 8.72e-01   max: D 3.88e-01 gamma 8.93e-01 beta 8.97e-01   median rms resid/M_inf 1.0e-02
+       oracle-start LM (diagnostic)   D 7.15e-03  gamma 1.26e-01  beta 1.20e-01   max: D 1.83e-02 gamma 2.39e-01 beta 2.31e-01   median rms resid/M_inf 9.7e-03
+disk P1 p=(0.5, 0.7, 1.3)  fderr=3.17e-05 fderr_late=4.61e-06 trunc=7.0e-09  (FD 24s)
+    eta=0      n= 1 median rel.err  D 2.35e-05  gamma 3.02e-05  beta 3.06e-05   max: D 2.35e-05 gamma 3.02e-05 beta 3.06e-05   median rms resid/M_inf 3.4e-06
+       oracle-start LM (diagnostic)   D 2.35e-05  gamma 3.02e-05  beta 3.06e-05   max: D 2.35e-05 gamma 3.02e-05 beta 3.06e-05   median rms resid/M_inf 3.4e-06
+    eta=0.001  n=20 median rel.err  D 8.04e-04  gamma 2.38e-03  beta 2.02e-03   max: D 3.05e-03 gamma 6.82e-03 beta 6.63e-03   median rms resid/M_inf 9.8e-04
+       oracle-start LM (diagnostic)   D 8.04e-04  gamma 2.38e-03  beta 2.02e-03   max: D 3.05e-03 gamma 6.82e-03 beta 6.63e-03   median rms resid/M_inf 9.8e-04
+    eta=0.01   n=20 median rel.err  D 8.34e-03  gamma 2.81e-02  beta 2.90e-02   max: D 3.25e-02 gamma 5.72e-02 beta 6.06e-02   median rms resid/M_inf 1.0e-02
+       oracle-start LM (diagnostic)   D 8.34e-03  gamma 2.81e-02  beta 2.90e-02   max: D 3.25e-02 gamma 5.72e-02 beta 6.06e-02   median rms resid/M_inf 1.0e-02
+disk P2 p=(2.0, 0.3, 0.5)  fderr=1.87e-05 fderr_late=2.89e-06 trunc=7.2e-10  (FD 24s)
+    eta=0      n= 1 median rel.err  D 2.66e-05  gamma 2.94e-06  beta 3.12e-06   max: D 2.66e-05 gamma 2.94e-06 beta 3.12e-06   median rms resid/M_inf 2.5e-06
+       oracle-start LM (diagnostic)   D 2.66e-05  gamma 2.94e-06  beta 3.12e-06   max: D 2.66e-05 gamma 2.94e-06 beta 3.12e-06   median rms resid/M_inf 2.5e-06
+    eta=0.001  n=20 median rel.err  D 1.27e-03  gamma 1.05e-03  beta 1.08e-03   max: D 4.92e-03 gamma 2.38e-03 beta 2.24e-03   median rms resid/M_inf 1.0e-03
+       oracle-start LM (diagnostic)   D 1.27e-03  gamma 1.05e-03  beta 1.08e-03   max: D 4.92e-03 gamma 2.38e-03 beta 2.24e-03   median rms resid/M_inf 1.0e-03
+    eta=0.01   n=20 median rel.err  D 1.41e-02  gamma 7.06e-03  beta 1.06e-02   max: D 4.98e-02 gamma 2.55e-02 beta 2.62e-02   median rms resid/M_inf 9.9e-03
+       oracle-start LM (diagnostic)   D 1.41e-02  gamma 7.06e-03  beta 1.06e-02   max: D 4.98e-02 gamma 2.55e-02 beta 2.62e-02   median rms resid/M_inf 9.9e-03
+disk P3 p=(0.1, 1.5, 2.0)  fderr=5.83e-05 fderr_late=8.80e-06 trunc=6.7e-08  (FD 24s)
+    eta=0      n= 1 median rel.err  D 2.56e-06  gamma 1.41e-04  beta 1.43e-04   max: D 2.56e-06 gamma 1.41e-04 beta 1.43e-04   median rms resid/M_inf 6.1e-06
+       oracle-start LM (diagnostic)   D 2.56e-06  gamma 1.41e-04  beta 1.43e-04   max: D 2.56e-06 gamma 1.41e-04 beta 1.43e-04   median rms resid/M_inf 6.1e-06
+    eta=0.001  n=20 median rel.err  D 1.02e-03  gamma 9.40e-03  beta 9.62e-03   max: D 5.45e-03 gamma 3.81e-02 beta 3.79e-02   median rms resid/M_inf 9.9e-04
+       oracle-start LM (diagnostic)   D 1.02e-03  gamma 9.40e-03  beta 9.62e-03   max: D 5.45e-03 gamma 3.81e-02 beta 3.79e-02   median rms resid/M_inf 9.9e-04
+    eta=0.01   n=20 median rel.err  D 1.54e-02  gamma 1.06e-01  beta 1.00e-01   max: D 9.16e-01 gamma 1.00e+00 beta 7.04e-01   median rms resid/M_inf 1.0e-02
+       oracle-start LM (diagnostic)   D 9.56e-03  gamma 7.58e-02  beta 7.08e-02   max: D 3.36e-02 gamma 2.56e-01 beta 2.49e-01   median rms resid/M_inf 1.0e-02
+ball P1 p=(0.5, 0.7, 1.3)  fderr=4.75e-05 fderr_late=6.91e-06 trunc=4.1e-09  (FD 22s)
+    eta=0      n= 1 median rel.err  D 4.43e-05  gamma 1.28e-05  beta 2.21e-05   max: D 4.43e-05 gamma 1.28e-05 beta 2.21e-05   median rms resid/M_inf 4.9e-06
+       oracle-start LM (diagnostic)   D 4.43e-05  gamma 1.28e-05  beta 2.21e-05   max: D 4.43e-05 gamma 1.28e-05 beta 2.21e-05   median rms resid/M_inf 4.9e-06
+    eta=0.001  n=20 median rel.err  D 1.36e-03  gamma 1.54e-03  beta 1.54e-03   max: D 2.90e-03 gamma 4.30e-03 beta 4.06e-03   median rms resid/M_inf 9.9e-04
+       oracle-start LM (diagnostic)   D 1.36e-03  gamma 1.54e-03  beta 1.54e-03   max: D 2.90e-03 gamma 4.30e-03 beta 4.06e-03   median rms resid/M_inf 9.9e-04
+    eta=0.01   n=20 median rel.err  D 1.23e-02  gamma 1.77e-02  beta 1.68e-02   max: D 3.57e-02 gamma 5.16e-02 beta 5.60e-02   median rms resid/M_inf 9.7e-03
+       oracle-start LM (diagnostic)   D 1.23e-02  gamma 1.77e-02  beta 1.68e-02   max: D 3.57e-02 gamma 5.16e-02 beta 5.60e-02   median rms resid/M_inf 9.7e-03
+ball P2 p=(2.0, 0.3, 0.5)  fderr=2.81e-05 fderr_late=4.60e-06 trunc=4.2e-10  (FD 21s)
+    eta=0      n= 1 median rel.err  D 7.37e-05  gamma 1.14e-05  beta 3.31e-06   max: D 7.37e-05 gamma 1.14e-05 beta 3.31e-06   median rms resid/M_inf 3.3e-06
+       oracle-start LM (diagnostic)   D 7.37e-05  gamma 1.14e-05  beta 3.31e-06   max: D 7.37e-05 gamma 1.14e-05 beta 3.31e-06   median rms resid/M_inf 3.3e-06
+    eta=0.001  n=20 median rel.err  D 1.72e-03  gamma 4.39e-04  beta 5.29e-04   max: D 6.26e-03 gamma 2.43e-03 beta 2.20e-03   median rms resid/M_inf 9.9e-04
+       oracle-start LM (diagnostic)   D 1.72e-03  gamma 4.39e-04  beta 5.29e-04   max: D 6.26e-03 gamma 2.43e-03 beta 2.20e-03   median rms resid/M_inf 9.9e-04
+    eta=0.01   n=20 median rel.err  D 1.57e-02  gamma 7.80e-03  beta 7.81e-03   max: D 4.21e-02 gamma 3.55e-02 beta 4.17e-02   median rms resid/M_inf 9.5e-03
+       oracle-start LM (diagnostic)   D 1.57e-02  gamma 7.80e-03  beta 7.81e-03   max: D 4.21e-02 gamma 3.55e-02 beta 4.17e-02   median rms resid/M_inf 9.5e-03
+ball P3 p=(0.1, 1.5, 2.0)  fderr=8.75e-05 fderr_late=1.33e-05 trunc=3.8e-08  (FD 12s)
+    eta=0      n= 1 median rel.err  D 6.84e-05  gamma 1.80e-04  beta 1.83e-04   max: D 6.84e-05 gamma 1.80e-04 beta 1.83e-04   median rms resid/M_inf 9.0e-06
+       oracle-start LM (diagnostic)   D 6.84e-05  gamma 1.80e-04  beta 1.83e-04   max: D 6.84e-05 gamma 1.80e-04 beta 1.83e-04   median rms resid/M_inf 9.0e-06
+    eta=0.001  n=20 median rel.err  D 2.24e-03  gamma 8.09e-03  beta 8.45e-03   max: D 6.74e-03 gamma 2.93e-02 beta 2.91e-02   median rms resid/M_inf 1.0e-03
+       oracle-start LM (diagnostic)   D 2.24e-03  gamma 8.09e-03  beta 8.45e-03   max: D 6.74e-03 gamma 2.93e-02 beta 2.91e-02   median rms resid/M_inf 1.0e-03
+    eta=0.01   n=20 median rel.err  D 2.36e-02  gamma 1.15e-01  beta 1.12e-01   max: D 8.74e-01 gamma 9.94e-01 beta 1.00e+00   median rms resid/M_inf 9.9e-03
+       oracle-start LM (diagnostic)   D 2.11e-02  gamma 1.12e-01  beta 1.12e-01   max: D 8.64e-02 gamma 5.11e-01 beta 5.07e-01   median rms resid/M_inf 9.8e-03
+# wall time 66 s

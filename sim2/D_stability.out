@@ -1,0 +1,8 @@
+# dim=3 (ball) R=1: L(p)=1/sigma_min over 3x3x3 grid; I=[0,20], 400 nodes
+# max L = 10.4060 at p=(0.3, 0.4, 1.8) ; min L = 1.0693 at p=(0.55, 0.7, 0.8)
+# Pearson(L,g)=0.648  Pearson(L,Dmu1/(b+g))=-0.488  Pearson(logL,log g)=0.627  Pearson(logL,log ratio)=-0.516  Spearman(L,g)=0.618  Spearman(L,ratio)=-0.482
+# nearby pairs |p-q|=1e-3: max |ratio/L - 1| along v_min = 1.15e-03 ; max ratio/L over 4 random directions per point = 0.3576
+# dim=1 (slab) R=1: L(p)=1/sigma_min over 3x3x3 grid; I=[0,20], 400 nodes
+# max L = 233.0065 at p=(0.3, 0.7, 1.8) ; min L = 3.3857 at p=(0.8, 0.7, 0.8)
+# Pearson(L,g)=0.805  Pearson(L,Dmu1/(b+g))=-0.633  Pearson(logL,log g)=0.924  Pearson(logL,log ratio)=-0.895  Spearman(L,g)=0.921  Spearman(L,ratio)=-0.875
+# nearby pairs |p-q|=1e-3: max |ratio/L - 1| along v_min = 2.47e-03 ; max ratio/L over 4 random directions per point = 0.3302

@@ -1,0 +1,47 @@
+#### 1st absorption
+ rmsd (percentage points): Fick median 0.297, CK median 0.215
+  degenerate 5-1: Dmu1=4.86e+03 rho=7 beta=0.00792 Cinf=21.4 (Fick 21.5) a*mu1=6.7e+04 beta*T=10.5
+  degenerate 5-5: Dmu1=0.00697 rho=2.86 beta=2.4e-05 Cinf=76.8 (Fick 20.9) a*mu1=55.8 beta*T=0.0318
+  degenerate 6-1: Dmu1=2.22e+06 rho=3.57e+08 beta=0.0363 Cinf=18 (Fick 18.2) a*mu1=0.171 beta*T=48.3
+  degenerate 6-2: Dmu1=7.45e+06 rho=1.32e+09 beta=0.0698 Cinf=20.5 (Fick 20.6) a*mu1=0.081 beta*T=92.9
+  degenerate 6-6: Dmu1=1.98e+04 rho=3.72e+06 beta=0.158 Cinf=19.9 (Fick 20) a*mu1=0.0338 beta*T=210
+  degenerate 8-2: Dmu1=1.82e+03 rho=5.89 beta=0.00371 Cinf=14.5 (Fick 14.5) a*mu1=6.09e+04 beta*T=5.09
+ bootstrap median [95%] fC {'5': (21.55033, 20.91152, 21.8314), '6': (19.34285, 18.19066, 20.2707), '7': (16.80715, 16.36948, 18.65515), '8': (14.58066, 14.48572, 14.70425)}
+ bootstrap median [95%] fm {'5': (0.00679, 0.00614, 0.00783), '6': (0.00503, 0.00476, 0.00591), '7': (0.00523, 0.00428, 0.00579), '8': (0.00321, 0.00267, 0.0035)}
+ bootstrap median [95%] (non-degenerate CK) rho {'5': (0.46146, 0.25684, 1.93031), '6': (0.90633, 0.60149, 1.5049), '7': (1.78726, 0.6, 2.74554), '8': (6.53333, 2.92262, 22.56233)}
+ bootstrap median [95%] (non-degenerate CK) beta {'5': (0.00447, 0.00014, 0.01291), '6': (0.0089, 0.00669, 0.01058), '7': (0.0075, 0.00553, 0.01211), '8': (0.0055, 0.00455, 0.06986)}
+ bootstrap median [95%] (non-degenerate CK) deff {'5': (0.00733, 0.00519, 0.02551), '6': (0.00776, 0.00641, 0.01296), '7': (0.01034, 0.00715, 0.01431), '8': (0.00954, 0.00265, 0.01266)}
+ LOO 4 groups Fick(Cinf,m1): 20/24
+ LOO {5,6} vs {7,8} Fick(Cinf,m1): 20/24, permutation p=0.0010
+ LOO {5,6} vs {7,8} CK(rho,beta,Deff) non-degenerate: 13/18, permutation p=0.0699
+#### 10th absorption
+ rmsd (percentage points): Fick median 0.620, CK median 0.217
+  degenerate 8-2: Dmu1=0.00404 rho=38.3 beta=1.53e-06 Cinf=482 (Fick 13.7) a*mu1=65.6 beta*T=0.00209
+ bootstrap median [95%] fC {'5': (19.23423, 17.80676, 20.67207), '6': (17.94062, 16.75413, 19.16345), '7': (13.96371, 13.13323, 14.62648), '8': (13.8636, 13.47018, 14.0899)}
+ bootstrap median [95%] fm {'5': (0.02576, 0.02413, 0.03152), '6': (0.03717, 0.03016, 0.0482), '7': (0.00394, 0.00332, 0.00641), '8': (0.00377, 0.00363, 0.00459)}
+ bootstrap median [95%] (non-degenerate CK) rho {'5': (0.35722, 0.30879, 0.42951), '6': (0.31409, 0.19471, 0.45962), '7': (1.4167, 0.70914, 2.39384), '8': (1.53231, 0.36056, 2.33559)}
+ bootstrap median [95%] (non-degenerate CK) beta {'5': (0.00446, 0.00351, 0.00706), '6': (0.00815, 0.0057, 0.00995), '7': (0.00313, 0.00257, 0.00375), '8': (0.00346, 0.00166, 0.00413)}
+ bootstrap median [95%] (non-degenerate CK) deff {'5': (0.04225, 0.03795, 0.07191), '6': (0.06783, 0.05422, 0.08646), '7': (0.00929, 0.00823, 0.02564), '8': (0.01297, 0.00443, 0.01665)}
+ LOO 4 groups Fick(Cinf,m1): 12/24
+ LOO {5,6} vs {7,8} Fick(Cinf,m1): 24/24, permutation p=0.0005
+ LOO {5,6} vs {7,8} CK(rho,beta,Deff) non-degenerate: 23/23, permutation p=0.0020
+#### 10th desorption
+ rmsd (percentage points): Fick median 0.347, CK median 0.249
+  degenerate 5-1: Dmu1=5.59e+03 rho=3.78 beta=0.0156 Cinf=18.9 (Fick 18.9) a*mu1=5.94e+04 beta*T=22.6
+  degenerate 5-4: Dmu1=2.47e+03 rho=3.57 beta=0.0128 Cinf=19.7 (Fick 19.7) a*mu1=3.29e+04 beta*T=18.6
+  degenerate 5-6: Dmu1=2.1e+05 rho=146 beta=0.0123 Cinf=19.9 (Fick 20.1) a*mu1=1.15e+05 beta*T=17.9
+  degenerate 6-5: Dmu1=697 rho=1.32 beta=0.0084 Cinf=14.8 (Fick 14.5) a*mu1=2.04e+04 beta*T=12.2
+  degenerate 6-6: Dmu1=1.78e+08 rho=1.46e+07 beta=0.0163 Cinf=14.9 (Fick 14.9) a*mu1=750 beta*T=23.7
+  degenerate 7-2: Dmu1=4.89e+05 rho=5.35e+07 beta=0.0617 Cinf=14.3 (Fick 14.4) a*mu1=0.148 beta*T=89.7
+  degenerate 7-6: Dmu1=2.49e+05 rho=3.63e+07 beta=0.0648 Cinf=12 (Fick 12) a*mu1=0.106 beta*T=94.3
+  degenerate 8-2: Dmu1=5.21e+03 rho=11.1 beta=0.00817 Cinf=13.4 (Fick 13.6) a*mu1=4.84e+04 beta*T=11.9
+  degenerate 8-3: Dmu1=6.38e+05 rho=8.43e+07 beta=0.0492 Cinf=12.6 (Fick 12.7) a*mu1=0.154 beta*T=71.6
+  degenerate 8-5: Dmu1=2.26e+06 rho=2.55e+08 beta=0.018 Cinf=13.4 (Fick 13.6) a*mu1=0.492 beta*T=26.2
+ bootstrap median [95%] fC {'5': (19.88624, 18.16498, 20.96887), '6': (15.79235, 13.70124, 18.84657), '7': (12.83043, 11.61174, 14.83979), '8': (13.56605, 12.9554, 13.78138)}
+ bootstrap median [95%] fm {'5': (0.01217, 0.01014, 0.01498), '6': (0.01407, 0.01282, 0.01608), '7': (0.00722, 0.00569, 0.01005), '8': (0.00674, 0.00564, 0.00709)}
+ bootstrap median [95%] (non-degenerate CK) rho {'5': (0.0641, 0.0, 0.10708), '6': (0.82302, 0.27405, 12.16686), '7': (0.67222, 0.54396, 21.53924), '8': (1.14831, 0.21992, 5.07825)}
+ bootstrap median [95%] (non-degenerate CK) beta {'5': (0.03697, 0.00549, 2664.63216), '6': (0.01404, 0.00721, 0.10406), '7': (0.00803, 0.00415, 0.08018), '8': (0.00821, 0.00397, 0.01)}
+ bootstrap median [95%] (non-degenerate CK) deff {'5': (0.01095, 0.01078, 0.01475), '6': (0.02549, 0.01637, 0.0623), '7': (0.01151, 0.00794, 0.01522), '8': (0.01439, 0.0082, 0.02329)}
+ LOO 4 groups Fick(Cinf,m1): 16/24
+ LOO {5,6} vs {7,8} Fick(Cinf,m1): 22/24, permutation p=0.0005
+ LOO {5,6} vs {7,8} CK(rho,beta,Deff) non-degenerate: 10/14, permutation p=0.1098

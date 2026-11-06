@@ -1,0 +1,99 @@
+#### 1st absorption  (data-bristol/1st_absorb_weight.csv)
+group 5: 6 specimens, 10 times, quantisation sd ~0.089 %
+  5-1: Fick Cinf=21.545% m1=0.007108 rmsd=0.422 | CK Cinf=21.423% m1=4856 rho=7 beta=0.007919 gamma=0.05546 Deff_m1=606.8 rmsd=0.360
+  5-2: Fick Cinf=20.892% m1=0.00597 rmsd=0.265 | CK Cinf=25.292% m1=0.006521 rho=0.257 beta=0.0002348 gamma=6.031e-05 Deff_m1=0.005188 rmsd=0.206
+  5-3: Fick Cinf=21.555% m1=0.007563 rmsd=0.264 | CK Cinf=27.262% m1=0.008049 rho=0.298 beta=0.0001413 gamma=4.209e-05 Deff_m1=0.006202 rmsd=0.216
+  5-4: Fick Cinf=21.856% m1=0.006481 rmsd=0.209 | CK Cinf=21.855% m1=0.01374 rho=0.625 beta=0.01291 gamma=0.008067 Deff_m1=0.008458 rmsd=0.141
+  5-5: Fick Cinf=20.931% m1=0.006307 rmsd=0.267 | CK Cinf=76.785% m1=0.006975 rho=2.86 beta=2.4e-05 gamma=6.869e-05 Deff_m1=0.001806 rmsd=0.124
+  5-6: Fick Cinf=21.807% m1=0.008099 rmsd=0.308 | CK Cinf=21.964% m1=0.07474 rho=1.93 beta=0.008709 gamma=0.01681 Deff_m1=0.02551 rmsd=0.166
+  pooled: Fick Cinf=21.413% m1=0.0069 rmsd=0.667 AIC=-44.5 | CK Cinf=26.927% m1=0.007328 rho=0.29 beta=0.0001383 Deff_m1=0.005682 a*mu1=9.23 rmsd=0.653 AIC=-43.1
+group 6: 6 specimens, 10 times, quantisation sd ~0.092 %
+  6-1: Fick Cinf=18.162% m1=0.004865 rmsd=0.559 | CK Cinf=17.983% m1=2.223e+06 rho=3.57e+08 beta=0.03632 gamma=1.297e+07 Deff_m1=0.006224 rmsd=0.211
+  6-2: Fick Cinf=20.571% m1=0.004997 rmsd=0.479 | CK Cinf=20.463% m1=7.449e+06 rho=1.32e+09 beta=0.06983 gamma=9.194e+07 Deff_m1=0.005657 rmsd=0.286
+  6-3: Fick Cinf=18.220% m1=0.004664 rmsd=0.259 | CK Cinf=18.354% m1=0.01026 rho=0.601 beta=0.006693 gamma=0.004026 Deff_m1=0.006409 rmsd=0.187
+  6-4: Fick Cinf=19.679% m1=0.006403 rmsd=0.275 | CK Cinf=19.726% m1=0.03247 rho=1.5 beta=0.008901 gamma=0.0134 Deff_m1=0.01296 rmsd=0.260
+  6-5: Fick Cinf=19.007% m1=0.00541 rmsd=0.339 | CK Cinf=18.979% m1=0.01479 rho=0.906 beta=0.01058 gamma=0.00959 Deff_m1=0.007759 rmsd=0.257
+  6-6: Fick Cinf=19.970% m1=0.005072 rmsd=0.296 | CK Cinf=19.930% m1=1.985e+04 rho=3.72e+06 beta=0.1579 gamma=5.87e+05 Deff_m1=0.005339 rmsd=0.248
+  pooled: Fick Cinf=19.253% m1=0.005219 rmsd=0.890 AIC=-10.0 | CK Cinf=19.187% m1=1.145e+05 rho=2.01e+07 beta=0.102 Deff_m1=0.005683 a*mu1=0.0557 rmsd=0.857 AIC=-10.6
+group 7: 6 specimens, 10 times, quantisation sd ~0.101 %
+  7-1: Fick Cinf=16.969% m1=0.006172 rmsd=0.317 | CK Cinf=16.941% m1=0.04644 rho=2.19 beta=0.009099 gamma=0.01995 Deff_m1=0.01455 rmsd=0.302
+  7-2: Fick Cinf=19.171% m1=0.005395 rmsd=0.335 | CK Cinf=19.356% m1=0.01018 rho=0.438 beta=0.006519 gamma=0.002858 Deff_m1=0.007076 rmsd=0.305
+  7-3: Fick Cinf=18.140% m1=0.005071 rmsd=0.271 | CK Cinf=18.179% m1=0.01273 rho=0.762 beta=0.008476 gamma=0.006455 Deff_m1=0.007228 rmsd=0.221
+  7-4: Fick Cinf=16.186% m1=0.004115 rmsd=0.186 | CK Cinf=16.098% m1=0.05536 rho=3.21 beta=0.005796 gamma=0.01861 Deff_m1=0.01315 rmsd=0.145
+  7-5: Fick Cinf=16.553% m1=0.004453 rmsd=0.299 | CK Cinf=16.636% m1=0.04616 rho=2.28 beta=0.005262 gamma=0.012 Deff_m1=0.01407 rmsd=0.284
+  7-6: Fick Cinf=16.646% m1=0.005411 rmsd=0.297 | CK Cinf=16.565% m1=0.01796 rho=1.38 beta=0.01512 gamma=0.02089 Deff_m1=0.007539 rmsd=0.171
+  pooled: Fick Cinf=17.250% m1=0.005089 rmsd=1.011 AIC=5.3 | CK Cinf=17.287% m1=0.009743 rho=0.499 beta=0.00883 Deff_m1=0.006498 a*mu1=0.245 rmsd=1.007 AIC=8.8
+group 8: 6 specimens, 10 times, quantisation sd ~0.075 %
+  8-1: Fick Cinf=14.772% m1=0.003268 rmsd=0.233 | CK Cinf=14.648% m1=0.03619 rho=2.92 beta=0.004876 gamma=0.01425 Deff_m1=0.009225 rmsd=0.191
+  8-2: Fick Cinf=14.524% m1=0.003477 rmsd=0.353 | CK Cinf=14.458% m1=1819 rho=5.89 beta=0.003707 gamma=0.02185 Deff_m1=263.9 rmsd=0.214
+  8-3: Fick Cinf=14.448% m1=0.002481 rmsd=0.270 | CK Cinf=14.369% m1=0.06246 rho=22.6 beta=0.06986 gamma=1.576 Deff_m1=0.002651 rmsd=0.194
+  8-4: Fick Cinf=14.615% m1=0.003519 rmsd=0.293 | CK Cinf=14.388% m1=0.07476 rho=4.9 beta=0.005497 gamma=0.02695 Deff_m1=0.01266 rmsd=0.172
+  8-5: Fick Cinf=14.637% m1=0.002855 rmsd=0.415 | CK Cinf=14.334% m1=0.08848 rho=6.53 beta=0.004553 gamma=0.02975 Deff_m1=0.01175 rmsd=0.236
+  8-6: Fick Cinf=14.547% m1=0.003143 rmsd=0.458 | CK Cinf=14.209% m1=0.07517 rho=6.88 beta=0.005931 gamma=0.04081 Deff_m1=0.009538 rmsd=0.230
+  pooled: Fick Cinf=14.564% m1=0.003115 rmsd=0.516 AIC=-75.4 | CK Cinf=14.335% m1=0.07015 rho=4.75 beta=0.004656 Deff_m1=0.01221 a*mu1=2.17 rmsd=0.471 AIC=-82.4
+#### 10th absorption  (data-bristol/10th_absorb_weight.csv)
+group 5: 6 specimens, 13 times, quantisation sd ~0.093 %
+  5-1: Fick Cinf=19.028% m1=0.02617 rmsd=1.002 | CK Cinf=20.347% m1=0.05758 rho=0.336 beta=0.004037 gamma=0.001357 Deff_m1=0.04309 rmsd=0.301
+  5-2: Fick Cinf=16.586% m1=0.02485 rmsd=0.887 | CK Cinf=17.685% m1=0.05596 rho=0.351 beta=0.004297 gamma=0.001509 Deff_m1=0.04142 rmsd=0.294
+  5-3: Fick Cinf=21.800% m1=0.03621 rmsd=1.215 | CK Cinf=22.693% m1=0.133 rho=0.456 beta=0.008959 gamma=0.004084 Deff_m1=0.09134 rmsd=0.226
+  5-4: Fick Cinf=19.311% m1=0.02534 rmsd=0.933 | CK Cinf=20.865% m1=0.04494 rho=0.281 beta=0.002991 gamma=0.0008419 Deff_m1=0.03507 rmsd=0.309
+  5-5: Fick Cinf=19.157% m1=0.02683 rmsd=1.106 | CK Cinf=20.340% m1=0.07363 rho=0.403 beta=0.005159 gamma=0.00208 Deff_m1=0.05247 rmsd=0.285
+  5-6: Fick Cinf=19.544% m1=0.02341 rmsd=1.009 | CK Cinf=20.707% m1=0.05566 rho=0.363 beta=0.004631 gamma=0.001683 Deff_m1=0.04082 rmsd=0.453
+  pooled: Fick Cinf=19.240% m1=0.0268 rmsd=1.825 AIC=97.9 | CK Cinf=20.368% m1=0.06433 rho=0.357 beta=0.004972 Deff_m1=0.0474 a*mu1=2.51 rmsd=1.551 AIC=76.4
+group 6: 6 specimens, 13 times, quantisation sd ~0.097 %
+  6-1: Fick Cinf=16.595% m1=0.03778 rmsd=0.631 | CK Cinf=17.328% m1=0.06287 rho=0.2 beta=0.004808 gamma=0.0009627 Deff_m1=0.05238 rmsd=0.217
+  6-2: Fick Cinf=19.168% m1=0.05354 rmsd=0.608 | CK Cinf=19.680% m1=0.09212 rho=0.189 beta=0.00893 gamma=0.00169 Deff_m1=0.07747 rmsd=0.128
+  6-3: Fick Cinf=16.913% m1=0.03657 rmsd=0.815 | CK Cinf=17.428% m1=0.1382 rho=0.448 beta=0.01097 gamma=0.00491 Deff_m1=0.09545 rmsd=0.269
+  6-4: Fick Cinf=19.159% m1=0.04285 rmsd=0.783 | CK Cinf=19.875% m1=0.07944 rho=0.223 beta=0.006597 gamma=0.001472 Deff_m1=0.06495 rmsd=0.312
+  6-5: Fick Cinf=18.294% m1=0.03161 rmsd=1.000 | CK Cinf=19.068% m1=0.09937 rho=0.405 beta=0.007566 gamma=0.003065 Deff_m1=0.07072 rmsd=0.320
+  6-6: Fick Cinf=17.588% m1=0.02375 rmsd=0.842 | CK Cinf=18.151% m1=0.08487 rho=0.514 beta=0.008741 gamma=0.004494 Deff_m1=0.05605 rmsd=0.232
+  pooled: Fick Cinf=17.917% m1=0.03696 rmsd=1.379 AIC=54.1 | CK Cinf=18.551% m1=0.08926 rho=0.318 beta=0.008322 Deff_m1=0.06775 a*mu1=1.96 rmsd=1.146 AIC=29.3
+group 7: 6 specimens, 13 times, quantisation sd ~0.080 %
+  7-1: Fick Cinf=14.132% m1=0.008197 rmsd=0.685 | CK Cinf=15.904% m1=0.02005 rho=0.579 beta=0.002263 gamma=0.00131 Deff_m1=0.0127 rmsd=0.218
+  7-2: Fick Cinf=14.828% m1=0.004622 rmsd=0.425 | CK Cinf=15.639% m1=0.01505 rho=0.839 beta=0.003354 gamma=0.002815 Deff_m1=0.008182 rmsd=0.257
+  7-3: Fick Cinf=13.795% m1=0.00367 rmsd=0.396 | CK Cinf=14.569% m1=0.01937 rho=1.28 beta=0.002906 gamma=0.003715 Deff_m1=0.008503 rmsd=0.207
+  7-4: Fick Cinf=14.425% m1=0.004217 rmsd=0.453 | CK Cinf=14.842% m1=0.1412 rho=2.66 beta=0.003579 gamma=0.009515 Deff_m1=0.03859 rmsd=0.157
+  7-5: Fick Cinf=13.041% m1=0.003406 rmsd=0.222 | CK Cinf=13.185% m1=0.03152 rho=2.13 beta=0.003931 gamma=0.008369 Deff_m1=0.01007 rmsd=0.204
+  7-6: Fick Cinf=13.226% m1=0.003227 rmsd=0.301 | CK Cinf=13.831% m1=0.02117 rho=1.55 beta=0.002877 gamma=0.004473 Deff_m1=0.008287 rmsd=0.162
+  pooled: Fick Cinf=13.823% m1=0.004353 rmsd=1.162 AIC=27.5 | CK Cinf=14.588% m1=0.02376 rho=1.26 beta=0.003277 Deff_m1=0.01052 a*mu1=1.79 rmsd=1.098 AIC=22.7
+group 8: 6 specimens, 13 times, quantisation sd ~0.076 %
+  8-1: Fick Cinf=13.994% m1=0.003791 rmsd=0.201 | CK Cinf=14.434% m1=0.01116 rho=0.812 beta=0.003727 gamma=0.003026 Deff_m1=0.006158 rmsd=0.118
+  8-2: Fick Cinf=13.680% m1=0.004514 rmsd=0.337 | CK Cinf=482.361% m1=0.004039 rho=38.3 beta=1.526e-06 gamma=5.846e-05 Deff_m1=0.0001027 rmsd=0.136
+  8-3: Fick Cinf=13.260% m1=0.003581 rmsd=0.345 | CK Cinf=13.756% m1=0.04347 rho=2.07 beta=0.003146 gamma=0.006506 Deff_m1=0.01417 rmsd=0.096
+  8-4: Fick Cinf=13.733% m1=0.004661 rmsd=0.326 | CK Cinf=14.184% m1=0.03285 rho=1.53 beta=0.00413 gamma=0.006328 Deff_m1=0.01297 rmsd=0.122
+  8-5: Fick Cinf=14.042% m1=0.003688 rmsd=0.327 | CK Cinf=14.409% m1=0.05552 rho=2.34 beta=0.003455 gamma=0.00807 Deff_m1=0.01665 rmsd=0.140
+  8-6: Fick Cinf=14.138% m1=0.003756 rmsd=0.279 | CK Cinf=15.360% m1=0.006025 rho=0.361 beta=0.001663 gamma=0.0005998 Deff_m1=0.004429 rmsd=0.190
+  pooled: Fick Cinf=13.790% m1=0.003987 rmsd=0.453 AIC=-119.6 | CK Cinf=14.192% m1=0.03192 rho=1.74 beta=0.003793 Deff_m1=0.01165 a*mu1=1.95 rmsd=0.377 AIC=-144.3
+#### 10th desorption  (data-bristol/10th_desorb_weight.csv)
+group 5: 6 specimens, 13 times, quantisation sd ~0.093 %
+  5-1: Fick Cinf=18.899% m1=0.01612 rmsd=0.404 | CK Cinf=18.920% m1=5586 rho=3.78 beta=0.01556 gamma=0.05874 Deff_m1=1170 rmsd=0.393
+  5-2: Fick Cinf=17.431% m1=0.01078 rmsd=0.479 | CK Cinf=17.431% m1=0.01078 rho=2.77e-07 beta=2665 gamma=0.0007389 Deff_m1=0.01078 rmsd=0.479
+  5-3: Fick Cinf=21.729% m1=0.01385 rmsd=0.304 | CK Cinf=21.925% m1=0.0157 rho=0.0641 beta=0.005493 gamma=0.0003521 Deff_m1=0.01475 rmsd=0.273
+  5-4: Fick Cinf=19.692% m1=0.01355 rmsd=0.364 | CK Cinf=19.731% m1=2471 rho=3.57 beta=0.01283 gamma=0.04577 Deff_m1=541.1 rmsd=0.334
+  5-5: Fick Cinf=20.209% m1=0.01061 rmsd=0.545 | CK Cinf=20.212% m1=0.01212 rho=0.107 beta=0.03697 gamma=0.003959 Deff_m1=0.01095 rmsd=0.545
+  5-6: Fick Cinf=20.081% m1=0.009675 rmsd=0.887 | CK Cinf=19.914% m1=2.1e+05 rho=146 beta=0.01231 gamma=1.796 Deff_m1=1429 rmsd=0.651
+  pooled: Fick Cinf=19.662% m1=0.01216 rmsd=1.396 AIC=56.1 | CK Cinf=19.652% m1=589.8 rho=4.96 beta=0.01245 Deff_m1=98.95 a*mu1=6.62e+03 rmsd=1.393 AIC=59.7
+group 6: 6 specimens, 13 times, quantisation sd ~0.097 %
+  6-1: Fick Cinf=12.898% m1=0.0125 rmsd=0.609 | CK Cinf=13.293% m1=0.1297 rho=1.08 beta=0.007212 gamma=0.007801 Deff_m1=0.0623 rmsd=0.156
+  6-2: Fick Cinf=18.232% m1=0.01483 rmsd=0.301 | CK Cinf=18.312% m1=0.02313 rho=0.274 beta=0.01654 gamma=0.004532 Deff_m1=0.01815 rmsd=0.266
+  6-3: Fick Cinf=16.668% m1=0.01734 rmsd=0.458 | CK Cinf=16.930% m1=0.05137 rho=0.564 beta=0.01154 gamma=0.006515 Deff_m1=0.03283 rmsd=0.225
+  6-4: Fick Cinf=19.461% m1=0.01397 rmsd=0.254 | CK Cinf=19.438% m1=0.2155 rho=12.2 beta=0.1041 gamma=1.266 Deff_m1=0.01637 rmsd=0.219
+  6-5: Fick Cinf=14.504% m1=0.01418 rmsd=0.716 | CK Cinf=14.808% m1=697.2 rho=1.32 beta=0.008399 gamma=0.01109 Deff_m1=300.4 rmsd=0.300
+  6-6: Fick Cinf=14.917% m1=0.01314 rmsd=0.671 | CK Cinf=14.853% m1=1.781e+08 rho=1.46e+07 beta=0.01631 gamma=2.375e+05 Deff_m1=12.23 rmsd=0.326
+  pooled: Fick Cinf=16.112% m1=0.0143 rmsd=2.083 AIC=118.5 | CK Cinf=16.226% m1=0.03345 rho=0.538 beta=0.01444 Deff_m1=0.02174 a*mu1=0.527 rmsd=2.077 AIC=122.0
+group 7: 6 specimens, 13 times, quantisation sd ~0.080 %
+  7-1: Fick Cinf=15.298% m1=0.01247 rmsd=0.242 | CK Cinf=15.269% m1=0.343 rho=21.5 beta=0.08018 gamma=1.727 Deff_m1=0.01522 rmsd=0.196
+  7-2: Fick Cinf=14.382% m1=0.007626 rmsd=0.363 | CK Cinf=14.328% m1=4.889e+05 rho=5.35e+07 beta=0.06169 gamma=3.303e+06 Deff_m1=0.009132 rmsd=0.297
+  7-3: Fick Cinf=12.882% m1=0.006915 rmsd=0.330 | CK Cinf=13.250% m1=0.02311 rho=0.8 beta=0.005482 gamma=0.004387 Deff_m1=0.01284 rmsd=0.178
+  7-4: Fick Cinf=12.779% m1=0.007529 rmsd=0.174 | CK Cinf=12.846% m1=0.01572 rho=0.544 beta=0.01058 gamma=0.005756 Deff_m1=0.01018 rmsd=0.157
+  7-5: Fick Cinf=11.207% m1=0.005417 rmsd=0.240 | CK Cinf=11.594% m1=0.01226 rho=0.544 beta=0.004146 gamma=0.002255 Deff_m1=0.007942 rmsd=0.149
+  7-6: Fick Cinf=12.016% m1=0.005972 rmsd=0.308 | CK Cinf=11.964% m1=2.491e+05 rho=3.63e+07 beta=0.06484 gamma=2.353e+06 Deff_m1=0.006865 rmsd=0.260
+  pooled: Fick Cinf=13.018% m1=0.00765 rmsd=1.611 AIC=78.4 | CK Cinf=13.323% m1=0.01328 rho=0.337 beta=0.005453 Deff_m1=0.009929 a*mu1=0.459 rmsd=1.600 AIC=81.3
+group 8: 6 specimens, 13 times, quantisation sd ~0.076 %
+  8-1: Fick Cinf=13.674% m1=0.007214 rmsd=0.226 | CK Cinf=13.800% m1=0.0309 rho=1.15 beta=0.008215 gamma=0.009433 Deff_m1=0.01439 rmsd=0.186
+  8-2: Fick Cinf=13.566% m1=0.0069 rmsd=0.329 | CK Cinf=13.442% m1=5207 rho=11.1 beta=0.008174 gamma=0.0904 Deff_m1=431.8 rmsd=0.216
+  8-3: Fick Cinf=12.714% m1=0.00619 rmsd=0.430 | CK Cinf=12.634% m1=6.376e+05 rho=8.43e+07 beta=0.04919 gamma=4.147e+06 Deff_m1=0.007563 rmsd=0.360
+  8-4: Fick Cinf=13.197% m1=0.006576 rmsd=0.305 | CK Cinf=13.089% m1=0.1416 rho=5.08 beta=0.009999 gamma=0.05078 Deff_m1=0.02329 rmsd=0.238
+  8-5: Fick Cinf=13.566% m1=0.005089 rmsd=0.515 | CK Cinf=13.350% m1=2.256e+06 rho=2.55e+08 beta=0.01798 gamma=4.584e+06 Deff_m1=0.008849 rmsd=0.212
+  8-6: Fick Cinf=13.888% m1=0.006961 rmsd=0.235 | CK Cinf=14.264% m1=0.01 rho=0.22 beta=0.003972 gamma=0.0008735 Deff_m1=0.008199 rmsd=0.158
+  pooled: Fick Cinf=13.423% m1=0.006456 rmsd=0.581 AIC=-80.8 | CK Cinf=13.376% m1=0.02587 rho=2.42 beta=0.04261 Deff_m1=0.007556 a*mu1=0.126 rmsd=0.559 AIC=-82.6
